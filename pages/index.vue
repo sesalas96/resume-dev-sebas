@@ -9,10 +9,11 @@
         href="#page-top"
         style="{z-index: 100;}"
       >
+        
         <span
           class="d-block d-lg-none"
           style="color: white; opacity: 0.7; font-weight: bold;"
-          >Resume Dev Sebas</span
+          ><span class="dot"></span>Resume Dev Sebas</span
         >
         <span class="d-none d-lg-block">
           <img
@@ -142,6 +143,15 @@ export default {
 </script>
 
 <style scoped>
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(13, 237, 43);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
 .sebas {
   display: none;
 }
