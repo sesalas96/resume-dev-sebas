@@ -1,0 +1,16 @@
+[
+  {
+    "name": "index___es",
+    "path": "/es",
+    "component": "/Users/sesalas/Documents/_**_Personal/resume-dev-sebas/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5d77c021"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "/Users/sesalas/Documents/_**_Personal/resume-dev-sebas/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5d77c021"
+  }
+]
