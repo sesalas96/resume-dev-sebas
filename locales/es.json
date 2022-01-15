@@ -1,0 +1,121 @@
+{
+  "links": {
+    "about": "Sobre mi",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "interests": "Intereses"
+  },
+  "personalInfo": {
+    "name": "Sebastian",
+    "lastName": "Salas",
+    "subHeadingText": [
+      "Software Enginneer ",
+      "Frontend Developer ",
+      "Mobile Developer ",
+      "Backend Developer ",
+      "Amante del Codigo! "
+    ],
+    "city": "San José, Costa Rica",
+    "phoneNumber": "+506 6069-6931",
+    "email": "devsebascr@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/salas96/",
+    "github": "https://github.com/sesalas96",
+    "instagram": "https://www.instagram.com/s.salas96/?hl=en",
+    "myDescription": "Desarrollador web apasionado, desarrollando aplicaciones útiles siempre utilizando las últimas tecnologías!"
+  },
+  "educationDegrees": {
+    "title": "Educación",
+    "degrees": [
+      {
+        "collage": "Intituto Tecnológico de Costa Rica",
+        "name": "Ingeniero en Informática",
+        "itemList": ["Ciencias de la Computación"],
+        "startEndDate": "Febrero 2016 - Diciembre 2020"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Experiencia Laboral",
+    "works": [
+      {
+        "position": "Back Offices (Responsive Web Apps)",
+        "companie": "Desarrollador Front-End - ReactJS",
+        "responsabilities": [
+          "Responsable de diseñar, codificar y mantener grupos de aplicaciones usadas en el mundo del retail por empresas multinacionales como Pepsico, Unilever, Quilmes, etc.",
+          "Lider del equipo web, estoy a cargo de la toma de decisiones técnicas y acerca de como el equipo va a trabajar en los diferentes proyectos.",
+          "Desarrollador Backend: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
+          "Desarrollador Frontend: VueJs | ReactJs | Javascript | JQuery.",
+          "Aplicaciones de Escritorio: .NET Windows Form Applications."
+        ],
+        "startEndDate": "Noviembre 2017 - Presente"
+      },
+      {
+        "position": "Point of Sales (Responsive Web App)",
+        "companie": "Desarrollador Front-End - ReactJS",
+        "responsabilities": [
+          "Responsable del diseño y mantenimiento del ecommerce.",
+          "Diseño Gráfico (Adobe Photoshop and Adobe Illustrator).",
+          "Soporte Técnico.",
+          "Mejora de los procesos de negocio."
+        ],
+        "startEndDate": "Marzo 2014 - Octubre 2017"
+      },
+      {
+        "position": "Mobile Aplication (IOS/ANDROID)",
+        "companie": "Desarrollador Front-End - React Native",
+        "responsabilities": [
+          "Responsable del diseño y mantenimiento del ecommerce.",
+          "Diseño Gráfico (Adobe Photoshop and Adobe Illustrator).",
+          "Soporte Técnico.",
+          "Mejora de los procesos de negocio."
+        ],
+        "startEndDate": "Marzo 2014 - Octubre 2017"
+      },
+      {
+        "position": "Landing Pages",
+        "companie": "Desarrollador Front-End - Vus.js",
+        "responsabilities": [
+          "Responsable del diseño y mantenimiento del ecommerce.",
+          "Diseño Gráfico (Adobe Photoshop and Adobe Illustrator).",
+          "Soporte Técnico.",
+          "Mejora de los procesos de negocio."
+        ],
+        "startEndDate": "Marzo 2014 - Octubre 2017"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "iconsTitle": "Lenguajes de Programación & Herramientas",
+    "devIcons": [
+      "devicon-javascript-plain",
+      "devicon-html5-plain-wordmark",
+      "devicon-css3-plain-wordmark",
+      "devicon-git-plain",
+      "devicon-nodejs-plain",
+      "devicon-bootstrap-plain",
+      "devicon-github-original",
+      "devicon-bitbucket-original-wordmark",
+      "devicon-linux-plain",
+      "devicon-react-original",
+      "devicon-visualstudio-plain",
+      "devicon-vuejs-plain",
+      "devicon-postgresql-plain"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "Diseño Responsive & UX",
+      "Cross Browser Testing & Debugging",
+      "Contrucción de REST API",
+      "Desarrollo Ágil & Scrum",
+      "Trabajo en equipo",
+      "Patrones de diseño"
+    ]
+  },
+  "interests": {
+    "title": "Hobbies",
+    "firstBlock": "Además de ser desarrollador web, disfruto la gran parte de mi tiempo escuchando y tocando música. Me encanta cantar y tocar el piano en mis ratos libres!. 🎹🎵",
+    "secondBlock": "También le dedico una gran parte de mi tiempo libre a explorar las última tecnologias y avances en el mundo del backend/frontend, y programo en mis proyectos personales! 🙌👨‍💻"
+  }
+}

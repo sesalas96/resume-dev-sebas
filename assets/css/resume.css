@@ -1,0 +1,215 @@
+body {
+  font-family: "Open Sans", serif;
+  padding-top: 54px;
+  color: var(--color-text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Saira Extra Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary-hover);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", serif;
+  font-size: 1.35rem;
+}
+
+.list-social-icons a {
+  color: var(--color-primary);
+}
+
+.list-social-icons a:hover {
+  color: var(--color-primary-hover);
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+  max-width: 500px;
+  margin-left: 6vw;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: var(--color-primary-hover);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.6rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.4rem solid var(--color-primary-hover);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 20vh !important;
+  margin-bottom: 35vh !important;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    padding-top: 25vh !important;
+    padding-bottom: 15vh !important;
+    margin-bottom: 100px !important;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+  color: var(--color-secondary) !important;
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--color-primary-hover);
+}
+
+.vue-typer .custom.char {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-hover);
+}
+
+.card-body,
+.card-title {
+  color: #868e96;
+}
+
+/* COLOR STYLES */
+
+:root {
+  --color: #013952;
+  --color-primary: #276c64;
+  --color-secondary: #e2610a;
+  --color-primary-hover: #61a391;
+  --color-text-primary: #0a0809;
+  --color-text-secondary: #e2e2e2;
+  --color-text-third: #343a40;
+  --bg: #eff8f4;
+  --bg-secondary: #fff;
+  --border-color: #ddd;
+  --selection-color-primary: #f3d10d;
+  --selection-color-secondary: #424b9e;
+}
+
+.dark-mode {
+  --color: #ebf4f1;
+  --color-primary: #0f2433;
+  --color-secondary: #276c64;
+  --color-primary-hover: #e2610a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #e2e2e2;
+  --bg: #1d2124;
+  --bg-secondary: #071521;
+  --border-color: #0d2538;
+  --selection-color-primary: #f3d10d;
+  --selection-color-secondary: #030c06;
+}
+
+::selection {
+  color: var(--selection-color-primary);
+  background: var(--selection-color-secondary);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-seriff;
+  background-color: var(--bg);
+  color: var(--color);
+  transition: background-color 0.3s;
+}
+a {
+  color: var(--color-secondary);
+}
